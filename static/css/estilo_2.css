@@ -1,0 +1,111 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.ibb.co/DCnSqWM/blue-grunge-pattern-background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 190px 600px;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+}
+.container img {
+    width: 173px;
+    height: 250px;
+    border-radius: 5px 0 0 5px;
+}
+
+.container__text {
+    float: left;
+    padding: 25px 0px 0px 0px;
+}
+
+.container__text a {
+    color: #351897;
+    font-weight: 200px;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__text a:active {
+    color: #351897;
+    font-weight: 200px;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__text .container__text__star span {
+    font-size: 2rem;
+    color: #85817a;
+    margin: -5px 0 20px;
+}
+
+.container__text .container__text__star span:hover {
+    font-size: 2rem;
+    color: #ffa200;
+    margin: -5px 0 20px;
+}
+
+.container__text p {
+    font-size: 0.4rem;
+}
+
+.container__text .container__text__time {
+    display: flex;
+    margin: 20px 0 10px;
+}
+
+.container__text .container__text__time .container__text__time_ {
+    margin-right: 40px;
+}
+
+.container__text .container__text__time h2 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #818189;
+}
+
+.container__text .container__text__time p {
+    color: #351897;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container .container__text__p{
+    position: absolute;
+    float: right;
+    text-align: justify;
+    width: 320px;
+    height: 30px;
+    margin-left: 470px;
+    padding: 25px;
+}
+
+.container .container__text__p p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #818189;
+}
+
+.container .container__text__p h2 {
+    color: #351897;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

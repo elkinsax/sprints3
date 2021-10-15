@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("https://i.ibb.co/DCnSqWM/blue-grunge-pattern-background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 600px;
+    width: 250px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 50px 200px;
+    grid-template-rows: 290px;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    float: left;
+}
+
+.container .container_img img{
+    width: 220px;
+    height: 270px;
+    padding: 25px 5px 5px 36px;
+}
+
+.container__text {
+    width: 250px;
+    margin-top: 0px;
+    padding: 15px 5px 5px 30px;
+}
+
+.container__text a {
+    color: #351897;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__text a:active {
+    color: #351897;
+    font-weight: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__text .container__text__star span {
+    font-size: 2rem;
+    color: #85817a;
+    margin: -5px 0 20px;
+}
+
+.container__text .container__text__star span:hover {
+    font-size: 2rem;
+    color: #ffa200;
+    margin: -5px 0 20px;
+}
+
+.container__text p {
+    font-size: 0.4rem;
+}
+
+.container__text .container__text__time {
+    display: flex;
+    margin: 20px 0 10px;
+}
+
+.container__text .container__text__time .container__text__time_ {
+    margin-right: 40px;
+}
+
+.container__text .container__text__time h2 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #818189;
+}
+
+.container__text .container__text__time p {
+    color: #351897;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.container2 {
+    margin-top: 30px;
+    margin-left: 430px;
+    height: 600px;
+    width: 830px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 550px 400px;
+    grid-template-rows: 60px 380px;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    position: fixed;
+}
+.container2 h1 {
+    color: #351897;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+.container2 h2 {
+    color: #351897;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.container2 p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #818189;
+    text-align: justify;
+    padding: 0px 30px;
+    width: 800px;
+}
+.container2 iframe{
+    margin-left: 60px;
+}
